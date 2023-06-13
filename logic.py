@@ -21,7 +21,16 @@ def main():
     flightfee = 0
     
     if sys.argv[2] == 'namechange':
-        namefee = namechange()
+         for flight in flights:
+            if flight['EndLoc'] == sys.argv[3]:
+                cost = flight['Cost']
+
+         for flight in flights:
+            if flight['EndLoc'] == sys.argv[3]:
+                days_left = flight['Days']
+                
+        namefee = namechange(cost, days_left)
+        
     elif sys.argv[2] == 'flightchange':
         for flight in flights:
             if flight['EndLoc'] == sys.argv[3]:
@@ -30,19 +39,9 @@ def main():
                 costto = flight['Cost']
 
         flightfee = flightchange(costfrom, costto)
-        
-    for flight in flights:
-        if flight['EndLoc'] == sys.argv[3]:
-            cost = flight['Cost']
-
-    for flight in flights:
-        if flight['EndLoc'] == sys.argv[3]:
-            days_left = flight['Days']
-
-    namefee = namechange(cost, days_left)
-
-    adminfee = namefee + flightfee
-    return adminfee
+       
+        adminfee = namefee + flightfee
+        return adminfee
 
 def namechange(cost):
     namefee = 0
@@ -52,7 +51,7 @@ def namechange(cost):
         # this allows the namefee paid to increase as the days left before the flight decreases
         namefee = round(int(cost) * 0.5 * 30 / int(days_left) + (int(cost) * 0.5) )
 
-    # since name cahnge fee is capped at $100 for extra-long-haul flights, namefee will be capped at $100
+    # since name change fee is capped at $100 for extra-long-haul flights, namefee will be capped at $100
     # https://cdn.flyscoot.com/prod/docs/default-source/fee-chart/scoot_fees_chart_en.pdf
     if namefee > 100:
          namefee = 100
