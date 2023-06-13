@@ -31,15 +31,13 @@ def main():
 
         flightfee = flightchange(costfrom, costto)
         
-    for row in flights:
-             for key in row.keys():
-                  if key == 'Cost':
-                       cost = row[key]
+    for flight in flights:
+        if flight['EndLoc'] == sys.argv[3]:
+            cost = flight['Cost']
 
-    for row in flights:
-             for key in row.keys():
-                  if key == 'Days':
-                       days_left = row[key]
+    for flight in flights:
+        if flight['EndLoc'] == sys.argv[3]:
+            days_left = flight['Days']
 
     namefee = namechange(cost, days_left)
 
