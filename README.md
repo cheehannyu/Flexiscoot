@@ -6,4 +6,5 @@ Backend logic that calculates the admin fee for a given flight from Singapore to
 
 #### Assumptions
 1. All flight data is to be taken from Scoot's database/API. logic.py may be converted into an adminfee() function that simply returns the admin fee as calculated. adminfee() will take in necessary arguments from user input that determines whether a name or flight change is being requested
-2. In the sample datasets, it is assumed that there is only 1 flight per destination. In reality, this is will be circumvented by using an index for each flight instead.
+2. In the sample datasets, it is assumed that there is only 1 flight per destination. In reality, this is will be circumvented by using an index for each flight instead. 
+3. In the sample datasets, it is assumed that all flights are equally 20 days away from takeoff when change is made. The length of time till takeoff is accounted for within logic.py
