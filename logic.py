@@ -30,12 +30,36 @@ def main():
                 costto = flight['Cost']
 
         flightfee = flightchange(costfrom, costto)
+        
+    for row in flights:
+             for key in row.keys():
+                  if key == 'Cost':
+                       cost = row[key]
+
+    for row in flights:
+             for key in row.keys():
+                  if key == 'Days':
+                       days_left = row[key]
+
+    namefee = namechange(cost, days_left)
 
     adminfee = namefee + flightfee
     return adminfee
 
 def namechange(cost):
-    #TODO
+    namefee = 0
+    if int(days_left) > 30:
+         namefee = round(int(cost) * 0.5, 2)
+    else:
+        # this allows the namefee paid to increase as the days left before the flight decreases
+        namefee = round(int(cost) * 0.5 * 30 / int(days_left) + (int(cost) * 0.5) )
+
+    # since name cahnge fee is capped at $100 for extra-long-haul flights, namefee will be capped at $100
+    # https://cdn.flyscoot.com/prod/docs/default-source/fee-chart/scoot_fees_chart_en.pdf
+    if namefee > 100:
+         namefee = 100
+
+    return namefee
 
 
 def flightchange(costfrom, costto):
