@@ -15,7 +15,11 @@ def main():
         csv_reader = csv.DictReader(file)
         for item in csv_reader:
             flights.append(item)
-
+           
+    # Initialise namefee and flightfee to be 0
+    namefee = 0
+    flightfee = 0
+    
     if sys.argv[2] == 'namechange':
         namefee = namechange()
     elif sys.argv[2] == 'flightchange':
