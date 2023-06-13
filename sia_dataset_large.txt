@@ -1,0 +1,112 @@
+StartLoc, EndLoc, Dist, Cost, Days
+Singapore,Bangkok,1150,200,20
+Singapore,Kuala Lumpur,350,100,20
+Singapore,Manila,2380,350,20
+Singapore,Tokyo,5830,800,20
+Singapore,Sydney,6300,900,20
+Singapore,Seoul,5120,700,20
+Singapore,Shanghai,4450,600,20
+Singapore,Mumbai,4200,550,20
+Singapore,Hong Kong,2570,400,20
+Singapore,Dubai,5800,800,20
+Singapore,Phuket,1230,250,20
+Singapore,Osaka,5250,750,20
+Singapore,Perth,4150,600,20
+Singapore,Delhi,4520,650,20
+Singapore,Beijing,4500,650,20
+Singapore,Bali,1900,300,20
+Singapore,Hanoi,2760,400,20
+Singapore,Maldives,3390,500,20
+Singapore,New York,15460,2000,20
+Singapore,London,10880,1500,20
+Singapore,Paris,10580,1400,20
+Singapore,Rome,10070,1350,20
+Singapore,Auckland,8940,1200,20
+Singapore,Berlin,10330,1400,20
+Singapore,Madrid,11430,1550,20
+Singapore,Moscow,8960,1200,20
+Singapore,Los Angeles,15270,1950,20
+Singapore,Miami,17060,2200,20
+Singapore,San Francisco,13730,1750,20
+Singapore,Vancouver,11370,1500,20
+Singapore,Rio de Janeiro,18880,2400,20
+Singapore,Buenos Aires,19470,2450,20
+Singapore,Cairo,7150,950,20
+Singapore,Cape Town,9590,1250,20
+Singapore,Marrakech,10060,1300,20
+Singapore,Zurich,10570,1400,20
+Singapore,Munich,10520,1400,20
+Singapore,Istanbul,7580,1000,20
+Singapore,Athens,9210,1200,20
+Singapore,Barcelona,11310,1500,20
+Singapore,Amsterdam,10830,1450,20
+Singapore,Venice,10130,1350,20
+Singapore,Florence,10270,1350,20
+Singapore,Edinburgh,10740,1450,20
+Singapore,Dublin,11080,1500,20
+Singapore,Mexico City,16180,2100,20
+Singapore,Santiago,18810,2400,20
+Singapore,Lima,19870,2500,20
+Singapore,Toronto,15030,1900,20
+Singapore,Montreal,14870,1900,20
+Singapore,Vegas,13800,1750,20
+Singapore,Chicago,13710,1750,20
+Singapore,Houston,16240,2100,20
+Singapore,Dallas,14580,1850,20
+Singapore,Boston,15720,2000,20
+Singapore,Seattle,12590,1600,20
+Singapore,Portland,12930,1650,20
+Singapore,Denver,14510,1850,20
+Singapore,Phoenix,14500,1850,20
+Singapore,New Orleans,16030,2050,20
+Singapore,Montego Bay,18850,2400,20
+Singapore,St. Lucia,18080,2300,20
+Singapore,Punta Cana,18820,2400,20
+Singapore,Cancun,18060,2300,20
+Singapore,Bahamas,18450,2350,20
+Singapore,Honolulu,7480,1000,20
+Singapore,Tahiti,11120,1450,20
+Singapore,Reykjavik,12950,1650,20
+Singapore,Malaga,11650,1550,20
+Singapore,Zagreb,9480,1250,20
+Singapore,Prague,9630,1250,20
+Singapore,Budapest,9590,1250,20
+Singapore,Vienna,10500,1400,20
+Singapore,Stockholm,9770,1300,20
+Singapore,St. Petersburg,7510,1000,20
+Singapore,Dubrovnik,10840,1450,20
+Singapore,Krakow,9520,1250,20
+Singapore,Lisbon,11160,1450,20
+Singapore,Madeira,11970,1550,20
+Singapore,Marrakesh,10080,1300,20
+Singapore,Montserrat,16540,2100,20
+Singapore,Seychelles,4640,650,20
+Singapore,Phnom Penh,1370,250,20
+Singapore,Yangon,2370,400,20
+Singapore,Kathmandu,3860,550,20
+Singapore,Male,4410,600,20
+Singapore,Lahore,4770,650,20
+Singapore,Colombo,3250,500,20
+Singapore,Minsk,8130,1050,20
+Singapore,Malaga,11650,1550,20
+Singapore,Mauritius,6470,900,20
+Singapore,Kinshasa,10450,1400,20
+Singapore,Johannesburg,9060,1200,20
+Singapore,Lusaka,8820,1150,20
+Singapore,Lagos,11570,1550,20
+Singapore,Nairobi,6660,950,20
+Singapore,Abuja,10840,1450,20
+Singapore,Kigali,7190,1000,20
+Singapore,Addis Ababa,6470,900,20
+Singapore,Casablanca,10880,1450,20
+Singapore,Marrakech,10060,1300,20
+Singapore,Dakar,13840,1750,20
+Singapore,Durban,6170,900,20
+Singapore,Cape Town,9590,1250,20
+Singapore,Nairobi,6660,950,20
+Singapore,Kampala,6220,900,20
+Singapore,Accra,11140,1450,20
+Singapore,Banjul,12030,1550,20
+Singapore,Freetown,13970,1800,20
+Singapore,Monrovia,12080,1550,20
+Singapore,Douala,12360,1600,20
