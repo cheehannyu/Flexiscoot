@@ -1,0 +1,11 @@
+StartLoc, EndLoc, Dist, Cost, Days
+Singapore,Bangkok,1150,200,20
+Singapore,Kuala Lumpur,350,100,20
+Singapore,Manila,2380,350,20
+Singapore,Tokyo,5830,800,20
+Singapore,Sydney,6300,900,20
+Singapore,Seoul,5120,700,20
+Singapore,Shanghai,4450,600,20
+Singapore,Mumbai,4200,550,20
+Singapore,Hong Kong,2570,400,20
+Singapore,Dubai,5800,800,20
