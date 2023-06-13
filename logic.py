@@ -29,7 +29,7 @@ def main():
             if flight['EndLoc'] == sys.argv[3]:
                 days_left = flight['Days']
                 
-        namefee = namechange(cost, days_left)
+         namefee = namechange(cost, days_left)
         
     elif sys.argv[2] == 'flightchange':
         for flight in flights:
@@ -43,7 +43,7 @@ def main():
         adminfee = namefee + flightfee
         return adminfee
 
-def namechange(cost):
+def namechange(cost, days_left):
     namefee = 0
     if int(days_left) > 30:
          namefee = round(int(cost) * 0.5, 2)
