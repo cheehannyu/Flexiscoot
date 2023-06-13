@@ -3,7 +3,8 @@ import sys
 
 def main():
 
-    if sys.argv[2] != 'namechange' or sys.argv[2] != 'flightchange':
+    functions = ['namechange', 'flightchange']
+    if sys.argv[2] not in functions:
         sys.exit("Error 1: Function not specified")
 
     # Assume csv file given is in the format of a list of dictionaries
@@ -16,18 +17,33 @@ def main():
             flights.append(item)
 
     if sys.argv[2] == 'namechange':
-        namechange()
+        namefee = namechange()
     elif sys.argv[2] == 'flightchange':
-        flightchange()
+        for flight in flights:
+            if flight['EndLoc'] == sys.argv[3]:
+                costfrom = flight['Cost']
+            elif flight['EndLoc'] == sys.argv[4]:
+                costto = flight['Cost']
 
+        flightfee = flightchange(costfrom, costto)
+
+    adminfee = namefee + flightfee
+    return adminfee
 
 def namechange(cost):
     #TODO
 
 
 def flightchange(costfrom, costto):
-    #TODO
+    costto = int(costto)
+    costfrom = int(costfrom)
+    difference = costto - costfrom
 
+    # If the second flight is cheaper, credit is not awarded
+    if difference < 0:
+        difference = 0
+
+    return difference
 
 
 if __name__ == "__main__":
