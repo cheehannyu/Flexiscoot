@@ -1,4 +1,4 @@
-StartLoc, EndLoc, Dist, Cost, Days
+StartLoc,EndLoc,Dist,Cost,Days
 Singapore,Bangkok,1150,200,20
 Singapore,Kuala Lumpur,350,100,20
 Singapore,Manila,2380,350,20
