@@ -1,0 +1,46 @@
+h1{
+    font-family: 'Sacramento', cursive;
+    /*16px = 100% = 1em = 1rem for font size (px and rem is static while % and em are dynamic*/
+    font-size: 5.625rem;
+    color:  #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:  #66BFBF;
+    font-weight: normal;
+}
+
+.top-container{
+    background-color: yellow;
+    position: relative;
+    margin-top: 4%;
+    margin-left: 200px;
+    margin-right:10%;
+    padding: 2%;
+
+}
+
+.scoot-logo{
+    position: absolute;
+    left: 50px;
+    height: 100px;
+}
+
+.flexiscoot-poster{
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.btn-findout{
+    background-color: yellow;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 300px;
+}
